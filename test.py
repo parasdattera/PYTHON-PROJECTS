@@ -1,4 +1,7 @@
-num1 = 2
-num2 =3
-num3 = num1**num2
-print(num3)
+from instabot import Bot
+
+bot = Bot()
+try:
+    bot.login(username="whoparasdattera", password="ParasDattera12345A@")
+except Exception as e:
+    print(f"Login failed: {e}")
